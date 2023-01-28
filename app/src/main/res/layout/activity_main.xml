@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/t_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#22005E"
+        android:gravity="center_horizontal"
+        android:text="Голоса за лучшие школы IT\n(нажми чтобы открыть пост в браузере)"
+        android:textColor="#CDDC39"
+        android:textSize="16sp" />
+
+    <ListView
+        android:id="@+id/lv_schools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:dividerHeight="1dp" />
+</LinearLayout>
